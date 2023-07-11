@@ -1,0 +1,78 @@
+.auth-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  // z-index: 3;
+  height: 600px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.gap-form {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.no-gap {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: white;
+}
+
+.input {
+  line-height: 2.5rem;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.button {
+  width: 260px;
+  border-radius: 5px;
+  line-height: 2.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+}
+
+.p {
+  color: white;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: small;
+  line-height: 0.5rem;
+}
+.invisible {
+  display: none;
+  position: absolute;
+  left: -1000px;
+}

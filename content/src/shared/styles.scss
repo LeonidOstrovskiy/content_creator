@@ -1,0 +1,29 @@
+.header {
+  width: 95vw;
+  margin-bottom: 5px;
+  padding: 5px 16px 5px 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  padding-bottom: 5px;
+  background: linear-gradient(
+    180deg,
+    rgba(116, 116, 116, 0) 66.15%,
+    #000000 100%
+  );
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.link:hover {
+  color: #524cc8;
+}
